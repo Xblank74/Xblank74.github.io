@@ -116,13 +116,13 @@ $(document).ready(function () {
         }
     });
 
-
-    function beautifyArray(formArray) {
+ function beautifyArray(formArray) {
         let myString = "";
         for (const formArrayElement of formArray) {
-            myString += formArrayElement.name + ":" + formArrayElement.value + ", "
+            myString += formArrayElement.name + " : " + formArrayElement.value + "\n "
         }
         return myString;
     }
+
 
 });
